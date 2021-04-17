@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.AutoConfigurationImportListener=\
+com.wavefront.autoconfigissue.AutoConfigurationOrderListener
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.wavefront.autoconfigissue.AutoConfigIssueDemo.CustomAutoConfigUsingTracer
